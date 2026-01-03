@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anas — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#">Anas</a>
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" aria-labelledby="hero-title">
+      <img src="profile.png" alt="Anas profile" class="avatar" />
+      <div class="hero-content">
+        <h1 id="hero-title">Hi — I'm <span id="name">Anas</span></h1>
+        <p id="bio">Front-end developer building accessible and responsive web experiences.</p>
+        <div class="cta">
+          <a href="#projects" class="btn">View projects</a>
+          <a href="#contact" class="btn outline">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <div id="projects-list" class="grid"></div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Feel free to reach out via email: <a href="mailto:anas@example.com">anas@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Anas. Built with ❤️.</small>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
